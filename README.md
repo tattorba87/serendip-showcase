@@ -9,8 +9,6 @@ Eventbrite, Facebook events, a handful of local listings sites, none of them agr
 other. Serendip collects what is on in a city, puts it on a map you can act on in a few taps,
 learns what you like, and lets you just ask for whatever you are in the mood for.
 
-I built all of it: the phone app, the API, the database and the nightly pipeline.
-
 ## Demo
 
 <div align="center">
