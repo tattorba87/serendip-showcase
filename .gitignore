@@ -3,3 +3,6 @@
 media/raw/
 *.mov
 .DS_Store
+
+# Working plan for this repo — local only, not published.
+PLAN.md
