@@ -1,0 +1,5 @@
+# This repo holds documentation and media only — no build, no dependencies.
+# Raw capture footage stays local; only the edited, reviewed exports are committed.
+media/raw/
+*.mov
+.DS_Store
