@@ -46,11 +46,3 @@ model call at all. The Search tab is the one place a model runs while you wait.
 The models run on a GPU box in my apartment, which also hosts the API and the nightly job. The
 phone reaches it over a tunnel that only makes outbound connections, so nothing is exposed at home.
 Releases go out through TestFlight and Google Play internal testing.
-
-## Status
-
-Parked since August 2026. The question I built it to answer came back yes: I used it to do things I
-would not otherwise have done. Then the consumer space filled up with competitors, and the business
-model I tried next did not survive contact with real customers. Stopping was the cheap outcome.
-
-It still runs on my phone.
