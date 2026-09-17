@@ -14,11 +14,16 @@ Montréal, on a real phone, against real data.
 
 ## Demo
 
-![Serendip demo](media/demo.gif)
+<div align="center">
+  <!-- Wrapped in its own anchor on purpose: GitHub linkifies bare markdown images to the
+       file's blob page, which navigates away from the README. Its own <a> suppresses that,
+       and pointing it at this section's heading keeps a click on the page. -->
+  <a href="#demo"><img src="media/demo.gif" alt="Serendip demo" width="400"></a>
+</div>
 
-*One take, real-time, on a Samsung A05s: browsing suggestions on the map, saving one, filtering to
-free events, then asking the Search tab a question in plain English.
-([full-quality recording](media/demo.mp4))*
+<p align="center"><i>One take, real-time, on a Samsung A05s: browsing suggestions on the map,
+saving one, filtering to free events, then asking the Search tab a question in plain English.<br>
+<a href="media/demo.mp4">Full-quality recording</a></i></p>
 
 ## A closer look
 
