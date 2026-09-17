@@ -43,6 +43,12 @@ up when two sources list the same thing, and works out each user's feed in advan
 the app, the API only reads what is already sitting in Postgres, so the map and the feed cost no
 model call at all. The Search tab is the one place a model runs while you wait.
 
-The models run on a GPU box in my apartment, which also hosts the API and the nightly job. The
-phone reaches it over a tunnel that only makes outbound connections, so nothing is exposed at home.
-Releases go out through TestFlight and Google Play internal testing.
+The models run on a GPU box in my apartment, which also hosts the API and the nightly job. That was
+a deliberate choice while prototyping: running inference on my own hardware costs nothing per call,
+so I could rewrite prompts, rebuild every embedding in the corpus and rerun the whole pipeline as
+often as I wanted without watching a bill. The only recurring costs were a domain name and an Apple
+developer account. Every model call goes through a provider layer, so moving to a hosted API is a
+config change rather than a rewrite.
+
+The phone reaches the box over a tunnel that only makes outbound connections, so nothing is exposed
+at home. Releases go out through TestFlight and Google Play internal testing.
